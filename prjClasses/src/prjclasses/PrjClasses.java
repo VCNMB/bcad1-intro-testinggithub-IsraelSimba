@@ -10,11 +10,13 @@ package prjclasses;
  */
 public class PrjClasses {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        System.out.println("Hello World, I am Legendary :-)");
+        newClass nc = new newClass();
+        
+        nc.helloClass(); //have to use variable name to communiate with the class
+        
+        System.out.println( nc.strSecondClassVar);
     }
     
 }
